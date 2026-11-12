@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use the adaptive GMMN method, please cite the article below."
+title: "PyGNN-JCGS: Generative moment matching networks"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Yao
+    given-names: Gan
+preferred-citation:
+  type: article
+  title: "Adaptive Generative Moment Matching Networks for Improved Learning of Dependence Structures"
+  authors:
+    - family-names: Hofert
+      given-names: Marius
+      orcid: "https://orcid.org/0000-0001-8009-4665"
+    - family-names: Yao
+      given-names: Gan
+  journal: "Journal of Computational and Graphical Statistics"
+  year: 2026
+  start: 1
+  end: 15
+  doi: "10.1080/10618600.2026.2689663"
+  url: "https://doi.org/10.1080/10618600.2026.2689663"

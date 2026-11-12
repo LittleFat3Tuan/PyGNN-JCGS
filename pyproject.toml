@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygnn-jcgs"
+version = "0.1.0"
+description = "PyTorch training tools for generative moment matching networks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "torch>=2.1",
+    "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.6"]
+
+[project.urls]
+"Research article" = "https://doi.org/10.1080/10618600.2026.2689663"
+
+[tool.setuptools.packages.find]
+include = ["PyGNN", "PyGNN.*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

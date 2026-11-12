@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+outputs/
+checkpoint.pt
+checkpoint.pth
+train_log.json
+snapshots/
+val_losses_*.csv
